@@ -1,0 +1,69 @@
+.contact-container{
+    width: 100%;
+    margin: 100px 0;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form h2, form button{
+    font-family: "Italiana";
+}
+form input{
+    font-family: "Koho";
+}
+form h2{
+    font-size: 48px;
+    color: #442424;
+}
+form input{
+    font-size: 28px;
+    width: 50%;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 11px;
+    border: none;
+    color: #ffffff;
+    background-color: #dbb0b0;
+}
+form button{
+    padding: 20px;
+    width: 50%;
+    font-weight: bold;;
+    text-transform: uppercase;
+    font-family: "Italiana";
+    color: #604242;
+    border: 1px solid  #604242;
+    background-color:transparent;
+    cursor: pointer;
+    transition: ease-in .3s;
+    margin-top: 10px;
+}
+form button:hover{
+    color: #ffffff;
+    background-color: #dbb0b0;
+}
+
+@media(max-width:427px ) {
+    form input{
+        color: #fff;
+        font-size: 22px;
+    }
+    form button{
+        font-size: 22px;}
+}
+
+@media (min-width: 428px) and (max-width:1279px) {
+    form input{
+        color: #fff;
+        font-size: 22px;
+    }
+    form button{
+        font-size: 22px;}
+  }

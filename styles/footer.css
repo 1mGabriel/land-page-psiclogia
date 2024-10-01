@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    background-color:#604242 ;
+    font-family: "Italiana";
+    height: 284px;
+}
+.footer-content{
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+color: #fff;
+text-transform: uppercase;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    display: flex;
+   list-style: none;
+   gap: 20px;
+}
+footer ul li {
+    font-size: 35px;
+}

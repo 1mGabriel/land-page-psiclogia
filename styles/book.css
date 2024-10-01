@@ -1,0 +1,83 @@
+.book-container{
+    width: 100%;
+}
+.book-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.book-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.book-image img{
+    width: 100%;
+}
+.book-text{
+    width: 50%;
+    font-family: "Koho";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-text h2, .book-text p{
+
+    width: 90%;
+    margin: 10px auto;
+    color:#604242;
+}
+.book-text button{
+    padding: 20px;
+    width: 100%;
+    font-weight: bold;;
+    text-transform: uppercase;
+    font-family: "Italiana";
+    color: #604242;
+    border: 1px solid  #604242;
+    background-color:transparent;
+    cursor: pointer;
+    transition: ease-in .3s;
+    margin-top: 10px;
+}
+.book-text button:hover{
+    color: #ffffff;
+    background-color: #604242;
+}
+
+@media(max-width:427px ) {
+    
+    }
+    
+    @media (min-width: 428px) and (max-width:1279px) {
+.book-text button{
+    width: 90%;
+    margin:  10px auto;
+}
+.book-text p{
+    font-size: 22px;
+}
+.book-text button{
+
+    font-size: 18px;
+}
+      }
+    
+    @media (min-width:1280px) {
+        .book-text button{
+            width: 90%;
+            margin:  10px auto;
+            font-size: 28px;
+        }
+        .book-text p{
+            font-size: 28px;
+        }
+        .book-text h2{
+            font-size: 37px;
+        }
+              }
+    
+    

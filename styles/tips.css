@@ -1,0 +1,116 @@
+.tips-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+.tips-container h2{
+   
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Italiana";
+    color: #442424;
+}
+
+.tips-content{
+    gap: 20px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    text-align: start;
+}
+.tips-answer-1.open, .tips-answer-2.open, .tips-answer-3.open, .tips-answer-4.open{
+    height: 100%;
+    margin-top: 10px;
+}
+.tips h2{
+    border-bottom: 1px solid #5a3d3da1;
+}
+.tips p{
+opacity: 0;
+    font-family: "Koho";
+    color: #604242;
+    margin: 0 auto;
+    transition: .3s ;
+    overflow-x: hidden;
+    height: 0px;
+   
+}
+.tips-answer-1.open, .tips-answer-2.open, .tips-answer-3.open, .tips-answer-4.open{
+    height: 100%;
+    margin-top: 10px;
+    opacity: 1;
+}
+.tips{
+    transition: ease-in .3s;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border-radius: 11px;
+}
+.tips:hover , .tips:active{
+    background: #f0f0f0;
+    box-shadow:  20px 20px 60px #dfdfdf,
+                 -20px -20px 60px #ffffff;
+}
+
+
+@media(max-width:427px ) {
+    .tips-image{
+        display: none;
+    }
+    .tips p{
+        font-size: 20px;
+        font-family: "Koho";
+        color: #604242;
+        margin: 0 auto;
+        transition: .3s ease-in;
+        overflow-x: hidden;
+        height: 0px;
+       
+    }
+}
+
+@media (min-width: 428px) and (max-width:1279px) {
+    .tips-image{
+        display: none;
+    }
+    .tips p{
+        font-size: 25px;
+    }
+    .tips-container h2{
+      font-size: 30px;
+    }
+  }
+
+@media (min-width:1280px) {
+    .tips p{
+        font-size: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tips-container h2{
+      font-size: 40px;
+    }
+
+    .tips-content{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+    }
+    .tips-block{
+        width: 50%;
+        height: 100vh;
+    }
+    .tips-image{
+        background-image: url("../image-px/mind.png");
+        background-size: cover;
+        background-position: right;
+        width: 50%;
+        height:100vh;
+    }
+    .tips-container i {
+        font-size: 18px;
+    }
+}

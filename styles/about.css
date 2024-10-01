@@ -1,0 +1,119 @@
+.about-me-container{
+    width: 100%;
+    background-color: #fff;
+
+}
+.about-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.about-text{
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.about-text h2{
+    font-family: "Italiana";
+    font-weight: bold;
+    color: #604242;
+}
+.about-text p{
+    font-family: "Koho";
+    color: #604242;
+    font-weight: bold;
+    
+}
+
+@media(max-width:427px ) {
+
+
+    .about-text{
+
+        width: 90%;
+        z-index: 3;
+        padding: 50px;
+        text-align:center;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    
+    }
+    .about-text h2{
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 21px;
+    }
+    .ana-mendes{
+        width: 350px;
+        opacity: .3;
+        position: absolute;
+        left: 160px;
+      
+        
+    }
+}
+
+@media (min-width: 428px) and (max-width:1279px) {
+.about-me-container{
+    height: 425px;
+}
+    .about-text{
+   
+            width: 90%;
+            z-index: 3;
+            padding: 50px;
+            text-align:center;
+            display: flex;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        
+        }
+        .about-text h2{
+            margin-bottom: 50px;
+            font-size: 30px;
+        }
+        .about-text p{
+            font-size: 22px;
+        }
+        .ana-mendes{
+            width: 350px;
+            opacity: .3;
+            position: absolute;
+            left: 260px;
+        }
+  }
+
+@media (min-width:1280px) {
+    .about-text{
+        width: 60%;
+        padding: 50px;
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    
+    }
+    .about-text h2{
+        margin-bottom: 100px;
+    font-size: 54px;
+    }
+    .about-text p{
+       font-size: 30px;
+        
+    }
+}

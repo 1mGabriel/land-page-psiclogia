@@ -1,0 +1,48 @@
+.faq-container{
+    width: 100%;
+    margin-top: 100px;
+}
+.faq-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.faqs{
+    border-radius: 11px;
+    background-color:#604242 ;
+    font-family: "Koho";
+    margin: 40px 0;
+    color: #fff;
+    padding: 20px;
+}
+.faqs h2{
+   margin-bottom: 50px;
+    }
+@media(max-width:427px ) {
+.faqs h2{
+font-size: 30px;
+}
+.faqs p{
+font-size: 22px;
+}
+}
+
+@media (min-width: 428px) and (max-width:1279px) {
+    .faqs h2{
+        font-size: 30px;
+        }
+        .faqs p{
+        font-size: 22px;
+        }
+        }
+        
+
+
+@media (min-width:1280px) {
+    .faqs h2{
+        font-size: 44px;
+        }
+        .faqs p{
+        font-size: 32px;
+        }
+     
+}

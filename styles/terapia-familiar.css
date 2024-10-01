@@ -1,0 +1,90 @@
+.terapia-container{
+    width: 100%;
+ 
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    color: #604242;
+}
+.terapia-container h2{
+    font-family: "Italiana";
+    color: #604242;
+    text-align: center;
+    padding: 20px;
+}
+.terapia-container p{
+    font-family: "Koho";
+    color: #604242;
+    text-align: center;
+}
+.terapia-content{
+    display: flex;
+    flex-direction: column;
+}
+.terapia-text{
+width: 90%;
+margin: 0 auto;
+padding: 20px;}
+
+   @media(max-width:427px ) {
+    .terapia-image{
+        width: 100%;
+    }
+    .terapia-image img{
+        width: 100%;
+    }
+    .terapia-text h2{
+        font-size: 30px;
+    }
+    .terapia-text p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+}
+
+@media (min-width: 428px) and (max-width:1279px) {
+    .terapia-image{
+        width: 100%;
+    }
+    .terapia-image img{
+        width: 100%;
+    }
+    .terapia-container h2{
+        font-size: 30px;
+    }
+    .terapia-text p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+  }
+
+@media (min-width:1280px) {
+    .terapia-container h2{
+        font-size: 54px;
+    }
+    .terapia-content{
+        display: flex;
+        flex-direction: row;
+    }
+    .terapia-text{
+        margin-right: 5%;
+        font-weight: bold;
+        width: 50%;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        text-align: center;
+        font-size:28px ;
+       
+    }
+    .terapia-image{
+    
+        margin-left: 5%;
+    }
+    hr{
+        display: none;
+    }
+}
